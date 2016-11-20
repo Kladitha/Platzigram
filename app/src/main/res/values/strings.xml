@@ -12,4 +12,8 @@
     <string name="hint_confirm_password">Confirmar Contraseña</string>
     <string name="text_button_createaccount">Unete</string>
     <string name="toolbal_tittle_createaccount">Crear Cuenta</string>
+    <string name="username_card">Claudia Villarroel</string>
+    <string name="firstWord_card">Hace</string>
+    <string name="timecard_card">4 días</string>
+    <string name="likenumber_card">Me gusta</string>
 </resources>
