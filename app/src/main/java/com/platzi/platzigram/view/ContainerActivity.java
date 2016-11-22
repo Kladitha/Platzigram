@@ -3,6 +3,8 @@ package com.platzi.platzigram.view;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.platzi.platzigram.R;
+
 public class ContainerActivity extends AppCompatActivity {
 
     @Override
