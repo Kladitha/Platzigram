@@ -7,6 +7,13 @@
 
     tools:context="com.platzi.platzigram.view.ContainerActivity">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:paddingBottom="@dimen/buttombar_height">
+
+    </FrameLayout>
     <include layout="@layout/bottombar"></include>
 
 </RelativeLayout>
