@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.platzi.platzigram.R;
+
 /**
  * Created by claud on 23-11-2016.
  */
@@ -19,6 +21,10 @@ public class PictureAdapterRecycleView {
 
         public PictureViewHolder(View itemView) {
             super(itemView);
+            pictureCard = (ImageView) itemView.findViewById(R.id.pictureCard_);
+            usernameCard = (TextView) itemView.findViewById(R.id.usernameCard);
+            timeCard = (TextView) itemView.findViewById(R.id.timeCard);
+            likenumberCard = (TextView) itemView.findViewById(R.id.likeNumberCard);
         }
     }
 }
