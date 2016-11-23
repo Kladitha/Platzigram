@@ -5,10 +5,18 @@ package com.platzi.platzigram.model;
  */
 
 public class Picture {
+
     private String picture;
-    private String username;
+    private String userName;
     private String time;
     private String like_number = "0";
+
+    public Picture(String picture, String userName, String time, String like_number) {
+        this.picture = picture;
+        this.userName = userName;
+        this.time = time;
+        this.like_number = like_number;
+    }
 
     public String getPicture() {
         return picture;
@@ -18,12 +26,12 @@ public class Picture {
         this.picture = picture;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getTime() {
@@ -41,15 +49,4 @@ public class Picture {
     public void setLike_number(String like_number) {
         this.like_number = like_number;
     }
-
-
-
-    public Picture(String picture, String username, String time, String like_number) {
-        this.picture = picture;
-        this.username = username;
-        this.time = time;
-        this.like_number = like_number;
-    }
-
-
 }
